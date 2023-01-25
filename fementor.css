@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+#body{
+    background: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    width: 100vw;
+    height: 100vh;
+}
+#leftitems{
+    color: white;
+    position: absolute;
+    bottom: 300px;
+    left: 100px;
+    /* font-size: larger; */
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+h5{
+    color: rgb(236, 230, 230);
+    font-size: 15px;
+}
+
+#try{
+    position: absolute;
+    left: 700px;
+    bottom: 50px;
+    top: 100px;
+}
+.try{
+    background-color: rgb(49, 49, 133);
+    color: rgb(241, 220, 220);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    width: 400px;
+}
+#fill{
+    /* display: flex;
+    flex-direction: column; */
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 370px;
+    position: absolute;
+    bottom: 120px;
+    left: 710px;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.fil{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 5px; */
+    padding: 5px;
+}
+
+input{
+    margin: 15px;
+    border-radius: 5px;
+    outline: none;
+    height: 30px;
+    border: 1px solid rgb(20, 17, 17);
+}
+button{
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(52, 151, 52);
+    height: 40px;
+    width: 340px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.end{
+    color: gray;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(236, 150, 150);
+}
